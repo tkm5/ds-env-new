@@ -1,0 +1,12 @@
+# zip file
+*.zip
+
+# jupyter notebook
+.ipynb_checkpoints
+
+# kaggle token file
+token/
+*.json
+
+# other files
+.DS_Store

@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  notebook:
+    build: .
+    image: 'ds-lab'
+    container_name: 'ds-lab'
+    # if you use apple silicon mac, active line below
+    # platform: linux/x86_64
+    ports:
+      - '8888:8888'
+    volumes:
+      - './docker/work:/work'
