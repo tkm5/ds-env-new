@@ -25,7 +25,6 @@ RUN pip install --upgrade pip && \
     pip install tensorflow && \
     # optional pkgs
     pip install kaggle && \
-    pip install jupyterlab_vim && \
     apt install zip unzip
 
 WORKDIR /
