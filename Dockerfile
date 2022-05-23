@@ -25,7 +25,10 @@ RUN pip install --upgrade pip && \
     pip install tensorflow && \
     # optional pkgs
     pip install kaggle && \
-    apt install zip unzip
+    pip install japanize_matplotlib && \
+    pip install lckr-jupyterlab-variableinspector && \
+    apt install zip unzip && \
+    pip install slack_sdk
 
 WORKDIR /
 RUN mkdir /work && \
